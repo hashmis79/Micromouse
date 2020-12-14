@@ -26,7 +26,7 @@ def clbk_laser(msg):
     regions_ = {
         'right':  min(min(msg.ranges[0:29]),10.0),
         'fright': min(min(msg.ranges[72:143]),10.0),
-        'front':  min(min(msg.ranges[144:215]),10.0),
+        'front':  min(min(msg.ranges[159:215]),10.0),
         'fleft':  min(min(msg.ranges[216:287]),10.0),
         'left':   min(min(msg.ranges[330:359]),10.0),
     	}
@@ -84,7 +84,7 @@ def stop_bot():
     msg.angular.z = 0.0
     pub_.publish(msg)
 
-#func for classifying the nodes
+#func for classifying the
 def take_action():
     global regions_
     regions = regions_
@@ -94,8 +94,8 @@ def take_action():
 
     state_description = ''
 
-    d = 0.1
-    e = 2
+    d = 0.2
+    e = 0.2
     if regions['front'] > d and regions['left'] < e and regions['right'] < e:
         state_description = 'case 8 - fleft and fright'
         follow_the_wall()
