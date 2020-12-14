@@ -85,10 +85,10 @@ def take_action():
 
     if regions['front'] > d and regions['fleft'] > e and regions['fright'] > e:
         state_description = 'case 1 - nothing'
-        change_state(2)
+        change_state(0)
     elif regions['front'] < d and regions['fleft'] > e and regions['fright'] > e:
         state_description = 'case 2 - front'
-        change_state(2)
+        change_state(1)
     elif regions['front'] > d and regions['fleft'] < e and regions['fright'] < e:
         state_description = 'case 3 - fright'
         change_state(2)
