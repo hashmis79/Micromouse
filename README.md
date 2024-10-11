@@ -1,8 +1,3 @@
-|                           Techfest                           |                          IIT Bombay                          |                      e-Yantra                      |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :------------------------------------------------: |
-| ![](http://www.btc.iitb.ac.in/sites/default/files/event/2019-06/techfest_0.jpg) | ![](https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/IIT_Bombay_color_logo.png/220px-IIT_Bombay_color_logo.png) | ![](http://mooc.e-yantra.org/img/eYantra_logo.svg) |
-
-
 # Techfest 2021 - International Micromouse Competition
 
 
